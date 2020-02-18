@@ -7,7 +7,7 @@ $(document).ready(function(){
 
       $("#request").text("Another one");
 
-        $.get("http://api.icndb.com/jokes/random", function(joke)
+        $.get("https://api.icndb.com/jokes/random", function(joke)
         {
           $("#number").text("Joke number  "+joke.value.id);  
           $("#answer").text(joke.value.joke);
