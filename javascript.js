@@ -1,9 +1,5 @@
 
 
-//Creamos el objeto que necestiamos para poder hacer la petición
-
-var xhttp= new XMLHttpRequest();
-
 
 $(document).ready(function(){
 
